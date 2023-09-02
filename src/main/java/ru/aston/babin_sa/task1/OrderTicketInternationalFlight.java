@@ -1,5 +1,7 @@
 package ru.aston.babin_sa.task1;
 
+import ru.aston.babin_sa.task1.exception.ZeroTicketsException;
+
 import java.math.BigDecimal;
 
 public class OrderTicketInternationalFlight extends Order{
@@ -26,6 +28,17 @@ public class OrderTicketInternationalFlight extends Order{
     }
 
     // сумма билетов
+    public BigDecimal getTicketAmount2() throws ZeroTicketsException {
+        if (getAmount().compareTo(BigDecimal.ZERO) <= 0) {
+            resultTicket = BigDecimal.valueOf(0.0);
+            throw new ZeroTicketsException(800, "Вы не приобрели ни одного билета");
+        } else {
+            resultTicket = resultTicket.multiply(getAmount());
+        }
+        return resultTicket;
+    }
+
+    // прошлая реализация метода
     public BigDecimal getTicketAmount() {
         if (getAmount().compareTo(BigDecimal.ZERO) > 0) {
             resultTicket = resultTicket.multiply(getAmount());
