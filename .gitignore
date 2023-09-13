@@ -2,3 +2,7 @@
 target/
 Intencive34/
 Intencive34.iml
+database.properties
+.db
+db_h2/
+Idea_k/

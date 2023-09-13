@@ -1,4 +1,4 @@
-package ru.aston.babin_sa.task1;
+package ru.aston.babin_sa.task1.model;
 
 import java.math.BigDecimal;
 
