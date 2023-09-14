@@ -1,9 +1,10 @@
-package ru.aston.babin_sa.task1;
+package ru.aston.babin_sa.task1.model;
 
 import java.util.Objects;
 
 public class User {
 
+    private int id;
     private String name;
     private String surname;
     private int age;
@@ -16,6 +17,14 @@ public class User {
         this.name = name;
         this.surname = surname;
         this.age = age;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getName() {
