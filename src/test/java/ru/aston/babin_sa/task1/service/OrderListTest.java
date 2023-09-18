@@ -1,6 +1,12 @@
-package ru.aston.babin_sa.task1;
+package ru.aston.babin_sa.task1.service;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
+import ru.aston.babin_sa.task1.Route;
+import ru.aston.babin_sa.task1.model.Order;
+import ru.aston.babin_sa.task1.model.User;
+import ru.aston.babin_sa.task1.service.OrderList;
+import ru.aston.babin_sa.task1.service.OrderTicketInternationalFlight;
+import ru.aston.babin_sa.task1.service.OrderTicketRegionalFlight;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;

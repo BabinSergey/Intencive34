@@ -1,11 +1,11 @@
 package ru.aston.babin_sa.task1.exception;
 
-import org.junit.Test;
 import org.junit.jupiter.api.Assertions;
-import ru.aston.babin_sa.task1.OrderTicketInternationalFlight;
-import ru.aston.babin_sa.task1.OrderTicketRegionalFlight;
+import org.junit.jupiter.api.Test;
 import ru.aston.babin_sa.task1.Route;
-import ru.aston.babin_sa.task1.User;
+import ru.aston.babin_sa.task1.model.User;
+import ru.aston.babin_sa.task1.service.OrderTicketInternationalFlight;
+import ru.aston.babin_sa.task1.service.OrderTicketRegionalFlight;
 
 import java.math.BigDecimal;
 

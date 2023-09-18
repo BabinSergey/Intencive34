@@ -1,4 +1,7 @@
-package ru.aston.babin_sa.task1;
+package ru.aston.babin_sa.task1.model;
+
+import ru.aston.babin_sa.task1.model.Discount;
+import ru.aston.babin_sa.task1.model.User;
 
 import java.math.BigDecimal;
 

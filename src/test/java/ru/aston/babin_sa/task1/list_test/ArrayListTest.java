@@ -1,7 +1,7 @@
 package ru.aston.babin_sa.task1.list_test;
 
-import org.junit.Test;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
 import java.util.Arrays;
