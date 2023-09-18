@@ -1,10 +1,13 @@
-package ru.aston.babin_sa.task1;
+package ru.aston.babin_sa.task1.service;
 
+import ru.aston.babin_sa.task1.Route;
 import ru.aston.babin_sa.task1.exception.ZeroTicketsException;
+import ru.aston.babin_sa.task1.model.Order;
+import ru.aston.babin_sa.task1.model.User;
 
 import java.math.BigDecimal;
 
-public class OrderTicketInternationalFlight extends Order{
+public class OrderTicketInternationalFlight extends Order {
 
     private Route route;  // класс в самолете
     private BigDecimal resultTicket = new BigDecimal(0.0); // цена билета

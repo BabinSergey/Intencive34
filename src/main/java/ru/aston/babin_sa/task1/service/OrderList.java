@@ -1,4 +1,6 @@
-package ru.aston.babin_sa.task1;
+package ru.aston.babin_sa.task1.service;
+
+import ru.aston.babin_sa.task1.model.Order;
 
 import java.math.BigDecimal;
 import java.util.Collections;
